@@ -1,0 +1,55 @@
+.catalog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  row-gap: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.searchButton {
+  height: 39px;
+  display: flex;
+  padding: 14px 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #3470ff;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.select {
+  width: 250px;
+}
+
+.form {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.loadMoreButton {
+  color: #3470ff;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.loadMoreButton:hover {
+  text-decoration: underline;
+}
+
+.loadMoreButtonContainer {
+  display: flex;
+  justify-content: center;
+}

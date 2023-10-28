@@ -7,37 +7,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Manrope';
+  line-height: 1.5;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.page-header {
-  background-color: #405cf5;
-  display: flex;
-  align-items: center;
-  height: 50px;
-  width: 100%;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.nav {
-  display: flex;
-  width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.link {
-  text-decoration: none;
-  color: white;
-}
-
-.link:hover {
-  color: black;
 }
 
 .pages-nav {
@@ -58,7 +34,7 @@ code {
 }
 
 .main {
-  margin-left: 30px;
+  margin: 0 30px;
 }
 
 .button {

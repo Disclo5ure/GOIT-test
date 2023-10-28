@@ -1,0 +1,71 @@
+.card {
+  width: 274px;
+  height: 426px;
+  outline: black;
+}
+
+.imgContainer {
+  overflow: hidden;
+  border-radius: 14px;
+  height: 268px;
+  margin-bottom: 14px;
+  display: flex;
+  position: relative;
+}
+
+.img.resize {
+  height: 268px;
+  width: 100%;
+}
+
+.carHeader {
+  display: flex;
+  height: 24px;
+  margin-bottom: 8px;
+}
+
+.name {
+  margin: 0;
+  margin-right: auto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.price {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tags {
+  color: rgba(18, 20, 23, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.button {
+  width: 274px;
+  height: 44px;
+  color: white;
+  border-radius: 12px;
+  background: #3470ff;
+  outline: none;
+  border: none;
+}
+
+.button:hover {
+  background: #0b44cd;
+  cursor: pointer;
+}
+
+.favorite {
+  height: 1px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

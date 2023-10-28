@@ -1,0 +1,111 @@
+.overlay {
+  z-index: 300;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  place-content: center;
+  background: rgba(34, 13, 91, 0.23);
+  backdrop-filter: blur(3.5px);
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 540px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  padding: 40px;
+}
+
+.button {
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+  background: none;
+  border: none;
+}
+
+.modalImg {
+  width: 461px;
+  height: 200 px;
+  border-radius: 14px;
+  margin-bottom: 14px;
+}
+
+.name {
+  margin: 0;
+  margin-right: auto;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.tags {
+  color: rgba(18, 20, 23, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.description {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.accessories {
+  margin-bottom: 24px;
+}
+
+.rentalConditionsAll {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.rentalConditions {
+  margin-bottom: 24px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.rentalConditionsTag {
+  display: flex;
+  padding: 7px 14px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  background: #f9f9f9;
+  font-size: 14px;
+}
+
+.rentButton {
+  width: 120px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 12px;
+  background: #3470ff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.font500 {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
